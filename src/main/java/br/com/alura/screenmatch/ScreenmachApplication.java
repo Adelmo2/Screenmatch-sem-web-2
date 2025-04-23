@@ -1,9 +1,9 @@
-package br.com.alura.screenmach;
+package br.com.alura.screenmatch;
 
-import br.com.alura.screenmach.model.DadosEpisodio;
-import br.com.alura.screenmach.model.DadosSerie;
-import br.com.alura.screenmach.service.ConsumoApi;
-import br.com.alura.screenmach.service.ConverteDados;
+import br.com.alura.screenmatch.model.DadosEpisodio;
+import br.com.alura.screenmatch.model.DadosSerie;
+import br.com.alura.screenmatch.service.ConsumoApi;
+import br.com.alura.screenmatch.service.ConverteDados;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -32,5 +32,4 @@ public class ScreenmachApplication implements CommandLineRunner {
 		System.out.println(dadosEpisodio);
 
 	}
-
 }
